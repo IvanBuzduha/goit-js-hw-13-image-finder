@@ -8,6 +8,19 @@
   </head>
 
   <body>
-   
+  <form class="search-form" id="search-form">
+  <input type="text" class="search-input" name="query" autocomplete="off" placeholder="Search images..."/>
+   <button type="submit" class="search-form__btn">Search</button>
+</form>
+
+<ul class="gallery">
+  <!-- Список <li> с карточками изображений -->
+</ul>
+
+<button type="button" class="btn is-hidden" data-action="load-more">
+  <div class="loader"></div>
+  <span class="label">Load-more</span>
+    </button>
+   <!-- <div class="loader"></div> -->
   </body>
 </html>
